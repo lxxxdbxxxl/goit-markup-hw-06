@@ -436,10 +436,26 @@
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button data-modal-close class="modal-close">
-          <svg width="11" height="11">
+          <svg width="18" height="18">
             <use use href="./images/svg/vector.svg#icon-vector"></use>
           </svg>
         </button>
+
+        <form>
+          <label>
+            Имя
+            <input type="text" name="username" autofocus />
+          </label>
+          <label>
+            Телефон
+            <input type="tel" name="phone_number" />
+          </label>
+          <label>
+            Почта
+            <input type="email" name="email" />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </div>
 
